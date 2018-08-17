@@ -16,6 +16,7 @@ function createWindow () {
             slashes: true
         })
     });
+    win.setTitle(require('./package.json').name);
 
 
     win.loadURL(url.format({
